@@ -185,13 +185,10 @@ public class InfixToPostfix {
     public static void main(String[] args) {
         
         String islem = "(a*(b+c)-d+(c*d))";
-        String islem2 = "2+3*2";
-        
+
         Postfix donustur = new Postfix(islem);
-        Postfix donustur2 = new Postfix(islem2);
-        
+
         String sonuc = donustur.infixToPostfix();
-        String sonuc2 = donustur2.infixToPostfix();
         
         System.out.println(sonuc2);
      
